@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hair Salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Hair Salon</h1>
+      <p>The best hairdresser in town</p>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Products</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <main>
+      <div class="imagesContainer">
+        <div class="card">
+          <img
+            src="./img/corte-pelo.jpg"
+            alt="Chica en peluqueria cortandose el pelo"
+          />
+          <div class="cardInfo">
+            <h3>Haircut</h3>
+            <p>
+              A style for every hair type. Order your haircut with our
+              professional stylists.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./img/tipos-tintes.jpg"
+            alt="Chica en peluqueria tiñiendose el pelo"
+          />
+          <div class="cardInfo">
+            <h3>Hair coloring</h3>
+            <p>Change your look with our variety of hair colors.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./img/peinado.jpg"
+            alt="Chica en peluqueria mostrando peinado nuevo"
+          />
+          <div class="cardInfo">
+            <h3>Hairsyle</h3>
+            <p>
+              A good hairstyle can make all the difference. Déjanos transformar
+              tu cabello.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <article>
+        <div class="services">
+          <h3>Our Services</h3>
+          <ul>
+            <li>Haircut</li>
+            <li>Hair color</li>
+            <li>Hair styling</li>
+            <li>Extension</li>
+            <li>Perms</li>
+          </ul>
+        </div>
+        <div class="prices">
+          <h3>Our Prices</h3>
+          <table>
+            <thead>
+              <th>Service</th>
+              <th>Price</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Haircut</td>
+                <td>$40</td>
+              </tr>
+              <tr>
+                <td>Hair color</td>
+                <td>$80</td>
+              </tr>
+              <tr>
+                <td>Hair styling</td>
+                <td>$60</td>
+              </tr>
+              <tr>
+                <td>Extensions</td>
+                <td>$150</td>
+              </tr>
+              <tr>
+                <td>Perms</td>
+                <td>$90</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>MindHub Cohort N°53</p>
+      <form action="./show_data.html">
+        <fieldset>
+          <legend>Suscribe</legend>
+          <label for="email">
+            Email: <input type="email" name="emial" id="email" />
+          </label>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+      <p>
+        Contact us: <a href="mailto:hairsalon@gmail.com">hairsalon@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
